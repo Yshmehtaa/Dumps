@@ -1,0 +1,18 @@
+For the new versions of the Kali 
+
+You will need to create an venv for install the tool- No tools or python scripts directly get install in the global pip system so to prevent we create an venv environment for it. 
+
+# 1️⃣ Install venv tools if missing
+navigate to the place where you are installing the tool or have git cloned the tool. 
+
+# 2️⃣ Create a local virtual environment inside dirsearch
+python3 -m venv .venv
+
+# 3️⃣ Activate it
+source .venv/bin/activate
+
+# 4️⃣ Upgrade pip inside the venv
+pip install --upgrade pip 
+
+# 5️⃣ Install all requirements safely
+pip install -r requirements.txt
