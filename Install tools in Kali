@@ -5,11 +5,14 @@ You will need to create an venv for install the tool- No tools or python scripts
 # 1️⃣ Install venv tools if missing
 navigate to the place where you are installing the tool or have git cloned the tool. 
 
-# 2️⃣ Create a local virtual environment inside dirsearch
+# 2️⃣ Create a local virtual environment inside dirsearch 
 python3 -m venv .venv
 
 # 3️⃣ Activate it
-source .venv/bin/activate
+source .venv/bin/activate 
+
+you need to do in this 
+(.venv)─(root㉿kali)-
 
 # 4️⃣ Upgrade pip inside the venv
 pip install --upgrade pip 
